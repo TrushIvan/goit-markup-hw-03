@@ -8,22 +8,26 @@ h6,
 p {
   margin: 0;
 }
+
 /* обнулення базових властивостей списків (ul) */
 ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
+
 /* обнулення базових властивостей у посилань */
 a {
   text-decoration: none;
 }
+
 /* Властивості для коректного відображення картинок */
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 /* Властивості для обнулення курсиву address */
 address {
   font-style: normal;
@@ -44,14 +48,20 @@ address {
 
 .container {
   width: 1158px;
+  display: flex;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.items {
+.logo {
   display: flex;
   align-items: center;
+}
+
+.items {
+  display: flex;
+  gap: 40px;
 }
 
 .header_navigation_link {
@@ -76,16 +86,17 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .header_navigation_item:hover,
-.header_navigation_item:focus{
+.header_navigation_item:focus {
   color: #404bbf;
 }
 
-.address{
+.address {
   font-style: normal;
 }
 
-.address_item{
+.address_item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -93,7 +104,7 @@ address {
 }
 
 .address_item:hover,
-.address_item:focus{
+.address_item:focus {
   color: #404bbf;
 }
 
@@ -118,7 +129,7 @@ h1 {
 }
 
 
-.first_button{
+.first_button {
   background-color: #4D5AE5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -130,7 +141,7 @@ h1 {
 }
 
 .first_button:hover,
-.first_button:focus{
+.first_button:focus {
   background-color: #404BBF;
 }
 
@@ -203,10 +214,10 @@ h1 {
   color: #2e2f42;
 }
 
-.names_section_four{
+.names_section_four {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
 }
 
 /* footer */
