@@ -14,7 +14,16 @@ img{
 }
 
 .container{
+  width: 1158px;
   display: flex;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.items{
+  display: flex;
+  align-items: center;
 }
 
 .header_navigation_link {
@@ -25,6 +34,7 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .studio_first {
