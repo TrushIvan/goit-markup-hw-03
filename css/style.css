@@ -4,16 +4,16 @@
   background-color: #FFFFFF;
 }
 
-img{
+img {
   display: block;
 }
 /* header */
-.header-main{
+.header-main {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
 }
 
-.container{
+.container {
   width: 1158px;
   display: flex;
   margin: 0 auto;
@@ -21,7 +21,7 @@ img{
   padding-right: 15px;
 }
 
-.items{
+.items {
   display: flex;
   align-items: center;
 }
