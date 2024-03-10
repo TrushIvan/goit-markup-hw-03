@@ -113,7 +113,7 @@ address {
 }
 
 /* section 1 */
-.hero_image {
+.section-first {
   background-color: #2e2f42;
   padding: 188px 0;
 }
@@ -185,7 +185,7 @@ h1 {
   width: calc((100% - 72px) / 4);
 }
 
-.plan {
+.section-second {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -207,13 +207,13 @@ h1 {
 }
 
 /* section 3 */
-.our_team {
+.section-third {
   background-color: #F4F4FD;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.our_team-list{
+.our_team-list {
   display: flex;
   gap: 24px;
 
@@ -235,7 +235,7 @@ h1 {
   border-radius: 0px 0px 4px 4px;
 }
 
-.person-team{
+.person-team {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -259,6 +259,11 @@ h1 {
 }
 
 /* section 4 */
+.section-fourth {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 .our_portfolio_title {
   font-size: 36px;
   line-height: 1.11;
