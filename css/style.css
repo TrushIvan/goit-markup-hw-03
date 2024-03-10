@@ -319,6 +319,10 @@ padding-bottom: 120px;
   display: inline-block;
   margin-bottom: 16px;
 }
+.footer_logo{
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 .portfolio_names{
   padding: 32px 16px;
