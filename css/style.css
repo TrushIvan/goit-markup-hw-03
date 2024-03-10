@@ -127,6 +127,7 @@ address {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
+  max-width: 496px;
 }
 
 h1 {
@@ -142,6 +143,12 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
