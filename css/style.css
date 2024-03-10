@@ -10,9 +10,10 @@ img{
 /* header */
 .header-main{
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
 
-.div-first{
+.container{
   display: flex;
 }
 
