@@ -274,7 +274,7 @@ padding-bottom: 120px;
   margin-bottom: 72px;
 }
 
-.Portfolio_items-in_general{
+.Portfolio-list{
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
