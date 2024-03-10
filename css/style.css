@@ -173,6 +173,18 @@ h1 {
   overflow: hidden;
 }
 
+.plan-list {
+  display: flex;
+  gap: 24px;
+
+}
+
+.plan-items{
+  display: flex;
+  gap: 24px;
+  
+}
+
 .plan {
   padding-top: 120px;
   padding-bottom: 120px;
