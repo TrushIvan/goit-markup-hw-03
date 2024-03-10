@@ -4,10 +4,20 @@
   background-color: #FFFFFF;
 }
 
-/* hedder */
+img{
+  display: block;
+}
+/* header */
 
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
 
-.hedder_navigation_link {
+.div-first{
+  display: flex;
+}
+
+.header_navigation_link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -21,15 +31,15 @@
   color: #2e2f42;
 }
 
-.hedder_navigation_item {
+.header_navigation_item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.hedder_navigation_item:hover,
-.hedder_navigation_item:focus{
+.header_navigation_item:hover,
+.header_navigation_item:focus{
   color: #404bbf;
 }
 
