@@ -303,6 +303,8 @@ padding-bottom: 120px;
 /* footer */
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .webstudio {
